@@ -4,8 +4,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.0'
 
 
+gem 'bootstrap'
+
+gem 'jquery-rails'
 gem 'devise'
 
+gem 'mini_racer', platforms: :ruby
+
+gem 'sprockets-rails'
 gem 'rails-i18n'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.2'
